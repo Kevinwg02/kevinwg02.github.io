@@ -1,0 +1,42 @@
+.menu {
+    position: sticky;
+    top: 0%;
+    padding: 1.5% 2%;
+    background-color: var(--main-color);
+    text-align: center;
+    z-index: 1;
+
+    transition: ease-in-out 1ms;
+    transform: translateX(50%);
+    transform: translateY(0px);
+}
+
+.menu a:hover {
+    background: rgb(255, 255, 255);
+    padding: 1.5% 2%;
+    color: black;
+}
+
+.menu a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.menu img {
+    transition: ease-in-out 1ms;
+    border-radius: 50%;
+    float: right;
+    height: 50px;
+}
+
+
+.linkpic {
+    display: none;
+}
+
+#memenu {
+    display: none;
+}

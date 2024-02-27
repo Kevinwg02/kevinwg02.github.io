@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .menu {
+        padding: 2% 0%;
+    }
+
+    .menu img {
+        border: solid var(--main-color) 3.5px;
+    }
+
+    .gridintro {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .titre {
+        grid-column: 1;
+        font-size: 21px;
+    }
+
+    .mypic {
+
+        grid-column: 1;
+    }
+
+    .mypic img {
+        transition: ease-in-out 2s;
+        transform: translateX(50%);
+        transform: translateY(0px);
+        width: 100px;
+    }
+
+    #memenu:hover {
+        opacity: 0.8;
+    }
+
+    .sociallinks i {
+        transition: ease-in-out 2s;
+        transform: translateX(50%);
+        transform: translateY(0px);
+        font-size: 2rem;
+    }
+
+    .date {
+        font-size: 15px;
+        left: -70px;
+        top: 50px;
+    }
+
+
+
+}

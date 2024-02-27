@@ -1,0 +1,19 @@
+.socials,
+.form {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.form input {
+  text-align: center;
+  border: solid 0.5px rgb(113, 107, 125);
+  border-radius: 40px;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.form .message {
+  padding: 80px;
+}

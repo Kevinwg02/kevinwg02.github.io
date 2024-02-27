@@ -1,0 +1,72 @@
+.gridintro {
+  margin-top: 10%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.titre,
+.titre h1 {
+  margin: auto;
+  font-size: 2.5em;
+  font-family: Bebas Neue, sans-serif;
+  color: rgb(82, 8, 166);
+}
+
+.undertitle {
+  grid-column: 1;
+}
+
+.mypic {
+  margin: auto;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.quick {
+  grid-column: span 2;
+  margin-right: 10%;
+}
+
+.gridintro p,
+p {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mypic img {
+  border-radius: 50%;
+  width: 250px;
+  border: solid rgb(82, 8, 166);
+  background: rgb(82, 8, 166);
+  filter: grayscale(80%);
+}
+
+.attachements {
+  background-color: var(--main-color);
+  color: var(--third-color);
+  border: none;
+  text-align: left;
+  grid-column: span 2;
+  margin: auto;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 1%;
+  font-size: 20px;
+  font-family: Bebas Neue, sans-serif;
+}
+.attachements i{
+  float: right;  
+  margin: 3px;
+  font-size: 20px;
+  padding-left: 5px;
+  color: var(--third-color);
+}
+
+.dl_div a {
+  float: right;
+  color: rgb(82, 8, 166);
+  text-decoration: none;
+}
+

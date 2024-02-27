@@ -1,0 +1,34 @@
+.timelinecontainer {
+    display: flex;
+}
+
+.timelineblockcontainer {
+    text-align: justify;
+    float: right;
+    padding-left: 5%;
+    border-left: 1px black solid;
+}
+
+.timelineblock {
+    padding-bottom: 2%;
+}
+
+.date {
+    position: relative;
+    left: -100px;
+    top: 30px;
+}
+
+span {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.legendtimeline i {
+    color: var(--main-color);
+}
+
+.legendtimeline span,
+.legendtimeline p {
+    padding-right: 15px;
+}

@@ -1,0 +1,109 @@
+:root {
+  font-size: 15px;
+  font-family: Roboto, sans-serif;
+  --main-color: rgb(82, 8, 166);
+  --secondary-color: rgb(18, 5, 32, 0.5);
+  --third-color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: var(--background-color);
+  offset-anchor: 50%;
+  padding: 0%;
+  margin: 0%;
+  scroll-behavior: smooth;
+}
+
+main section {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 20%;
+  scroll-margin-top: 5em;
+}
+
+.contact{
+  margin-top: 40%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h2,
+h3 {
+  color: var(--main-color);
+  font-family: Bebas Neue, sans-serif;
+}
+
+.sociallinks {
+  margin-top: -50%;
+}
+
+.sociallinks i {
+  font-size: 3rem;
+  margin-left: 20px;
+}
+
+.sociallinks i:hover {
+  color: var(--secondary-color);
+}
+
+.sociallinks,
+#at {
+  text-align: center;
+}
+
+.sociallinks a {
+  color: var(--main-color);
+}
+
+
+
+
+
+footer {
+  padding: 2% 0%;
+  position: relative;
+  bottom: 90%;
+  height: 100px;
+  width: 100%;
+  height: fit-content;
+  background: var(--main-color);
+
+}
+.socialsactuallinks { 
+  padding: 0% 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: -15px;
+  color: var(--third-color);
+}
+
+.socialsactuallinks a,
+.socialactuallinks div {
+  text-decoration: none;
+  color: var(--third-color);
+}
+
+
+.sociallinkproject {
+  grid-column: 1;
+}
+.footercontact {
+  grid-column: 2;
+}
+.sociallinkfooter{
+  grid-column: 3;
+}
+
+.footercontact p, .sociallinkfooter p, .sociallinkproject p{
+  font-size: 15px
+}
+.footercontact a, .sociallinkfooter a, .sociallinkproject a{
+  font-size: 9px;
+}
+
