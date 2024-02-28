@@ -10,7 +10,7 @@
   margin: auto;
   font-size: 2.5em;
   font-family: Bebas Neue, sans-serif;
-  color: rgb(82, 8, 166);
+  color: var(--main-color)
 }
 
 .undertitle {
@@ -38,14 +38,15 @@ p {
 .mypic img {
   border-radius: 50%;
   width: 250px;
-  border: solid rgb(82, 8, 166);
-  background: rgb(82, 8, 166);
+  border: solid var(--main-color);
   filter: grayscale(80%);
 }
 
 .attachements {
   background-color: var(--main-color);
-  color: var(--third-color);
+  color: var(--firstfont-color);
+  font-family: Bebas Neue, sans-serif;
+  font-size: 20px;
   border: none;
   text-align: left;
   grid-column: span 2;
@@ -53,20 +54,17 @@ p {
   text-decoration: none;
   border-radius: 5px;
   padding: 5px 1%;
-  font-size: 20px;
-  font-family: Bebas Neue, sans-serif;
 }
-.attachements i{
-  float: right;  
+
+.attachements i {
+  float: right;
   margin: 3px;
   font-size: 20px;
   padding-left: 5px;
-  color: var(--third-color);
+  color: var(--firstfont-color);
 }
 
 .dl_div a {
   float: right;
-  color: rgb(82, 8, 166);
   text-decoration: none;
 }
-

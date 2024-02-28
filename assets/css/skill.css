@@ -4,20 +4,16 @@
   padding-right: 10%;
 }
 
-.row {
-  border-width: 0.1px;
-  border-color: var(--main-color);
-  border-style: dotted;
-}
 
 progress {
-  accent-color: var(--main-color);
+  /* accent-color: var(--main-color); */
   margin-top: auto;
   margin-bottom: auto;
   width: auto;
 }
 
 .competence p {
+  color: var(--secondaryfont-color);
   text-align: center;
   padding-right: 10px;
 }
@@ -30,10 +26,38 @@ progress {
 
 .skillcontainergrid {
   margin-right: 10%;
+  margin-left: 10%;
 }
 
 .element-skill {
-  border: 1px solid var(--main-color);
-  border-radius: 15px;
+  border: 2px solid;
+  /*border-radius: 15px; */
   margin: 10px;
+}
+
+#dev {
+  border-color: var(--dev-color);
+  border-radius: 15px;
+}
+
+#dev progress {
+  accent-color: var(--dev-color);
+}
+
+#networking {
+  border-color: var(--networking-color);
+  border-radius: 15px;
+}
+
+#networking progress {
+  accent-color: var(--networking-color);
+}
+
+#system {
+  border-color: var(--system-color);
+  border-radius: 15px;
+}
+
+#system progress {
+  accent-color: var(--system-color);
 }

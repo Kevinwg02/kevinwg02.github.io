@@ -1,5 +1,6 @@
 .timelinecontainer {
     display: flex;
+    color: var(--secondaryfont-color);
 }
 
 .timelineblockcontainer {

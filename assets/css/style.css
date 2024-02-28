@@ -1,13 +1,25 @@
 :root {
   font-size: 15px;
   font-family: Roboto, sans-serif;
+  
+  /* --background-color: rgb(2, 2, 2); */
+  /* --main-color: rgb(255, 66, 8); */
+
+  --background-color: rgb(255, 255, 255);
   --main-color: rgb(82, 8, 166);
-  --secondary-color: rgb(18, 5, 32, 0.5);
-  --third-color: rgb(255, 255, 255);
+  
+  --secondaryfont-color: rgb(41, 41, 41);
+  --firstfont-color: rgb(255, 255, 255);
+
+  --dev-color: rgb(255, 133, 62);
+  --system-color: rgb(5, 145, 0);
+  --networking-color: rgb(0, 88, 139);
+
 }
 
 body {
   background-color: var(--background-color);
+  color: var(--font-color);
   offset-anchor: 50%;
   padding: 0%;
   margin: 0%;
@@ -21,7 +33,7 @@ main section {
   scroll-margin-top: 5em;
 }
 
-.contact{
+.contact {
   margin-top: 40%;
 }
 
@@ -33,6 +45,7 @@ h3 {
   font-size: 1.5rem;
 }
 
+h1,
 h2,
 h3 {
   color: var(--main-color);
@@ -75,35 +88,51 @@ footer {
   background: var(--main-color);
 
 }
-.socialsactuallinks { 
-  padding: 0% 10%;
+
+.socialsactuallinks {
+  padding: 0% 0% 0% 20%;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: -15px;
-  color: var(--third-color);
+  color: var(--firstfont-color);
 }
 
 .socialsactuallinks a,
 .socialactuallinks div {
   text-decoration: none;
-  color: var(--third-color);
+  color: var(--firstfont-color);
 }
 
 
 .sociallinkproject {
   grid-column: 1;
 }
+
 .footercontact {
   grid-column: 2;
 }
-.sociallinkfooter{
+
+.sociallinkfooter {
   grid-column: 3;
 }
 
-.footercontact p, .sociallinkfooter p, .sociallinkproject p{
+.footercontact p,
+.sociallinkfooter p,
+.sociallinkproject p {
   font-size: 15px
 }
-.footercontact a, .sociallinkfooter a, .sociallinkproject a{
+
+.footercontact a,
+.sociallinkfooter a,
+.sociallinkproject a {
   font-size: 9px;
 }
 
+.footerlandmark {
+  text-align: center;
+  color: var(--firstfont-color);
+  font-size: 8px;
+  margin-top: 20px;
+}

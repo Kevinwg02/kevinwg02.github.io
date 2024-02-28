@@ -106,9 +106,9 @@
   cursor: pointer;
   vertical-align: baseline;
   transition: 0.3s;
-  border-radius: 4%;
+  border-radius: 15px;
   width: 25%;
-  border: solid 0.5px rgb(82, 8, 166);
+  border: solid 2px var(--main-color);
   width: 250px;
   height: 150px;
   object-fit: cover;

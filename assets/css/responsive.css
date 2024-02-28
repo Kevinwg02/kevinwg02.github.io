@@ -1,13 +1,16 @@
 @media only screen and (max-width: 600px) {
     body {
         font-size: 12px;
-        font-weight: 700;
+        /* font-weight: 700; */
     }
 
     .menu {
         padding: 2% 0%;
+        color: var(--background-color);
     }
-
+/* .menu a{
+    color: var(--background-color);
+} */
     .menu img {
         border: solid var(--main-color) 3.5px;
     }
@@ -15,6 +18,11 @@
     .gridintro {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .element-skill{
+        grid-column: 2;
+    }
+   
 
     .titre {
         grid-column: 1;
