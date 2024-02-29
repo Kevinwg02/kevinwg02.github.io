@@ -1,16 +1,15 @@
 @media only screen and (max-width: 600px) {
     body {
         font-size: 12px;
-        /* font-weight: 700; */
+        font-weight: 700;
     }
 
     .menu {
         padding: 2% 0%;
-        color: var(--background-color);
+        border-color: var(--background-color);
     }
-/* .menu a{
-    color: var(--background-color);
-} */
+
+
     .menu img {
         border: solid var(--main-color) 3.5px;
     }
@@ -19,10 +18,10 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .element-skill{
+    .element-skill {
         grid-column: 2;
     }
-   
+
 
     .titre {
         grid-column: 1;
@@ -30,7 +29,6 @@
     }
 
     .mypic {
-
         grid-column: 1;
     }
 
@@ -42,7 +40,8 @@
     }
 
     #memenu:hover {
-        opacity: 0.8;
+        opacity: 0.9;
+        border-color: var(--main-color);
     }
 
     .sociallinks i {
@@ -57,7 +56,10 @@
         left: -70px;
         top: 50px;
     }
+}
 
-
-
+@media only screen and (min-width: 600px) {
+    #memenu {
+        border: solid 3.5px var(--main-color);
+    }
 }

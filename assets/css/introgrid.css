@@ -24,6 +24,7 @@
 }
 
 .quick {
+  color: var(--secondary-color);
   grid-column: span 2;
   margin-right: 10%;
 }

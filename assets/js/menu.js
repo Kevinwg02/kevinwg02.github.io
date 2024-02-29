@@ -16,8 +16,7 @@ if (taille < 600) {
             document.getElementById("menuid").style.display = "block";
         }
         if (scroll > 400) {
-            document.querySelector(".menu").style.backgroundColor = "var(--main-color)";
-
+            document.querySelector(".menu").style.backgroundColor = "var(--background-color)";
             document.getElementById("memenu").style.display = "block";
             document.getElementById("memenulink").style.display = "block";
             document.getElementById("menuid").style.display = "none";

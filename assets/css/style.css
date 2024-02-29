@@ -2,8 +2,15 @@
   font-size: 15px;
   font-family: Roboto, sans-serif;
   
-  /* --background-color: rgb(2, 2, 2); */
-  /* --main-color: rgb(255, 66, 8); */
+  /* **************DARK MODE******************** */
+  /* --background-color: rgb(2, 2, 2);
+  --main-color: rgb(243, 0, 0);
+  --main-color: rgb(255, 66, 8);
+  --secondaryfont-color: rgb(255, 255, 255);
+  --firstfont-color: rgb(255, 255, 255); */
+
+
+/* *************WHITE MODE******************** */
 
   --background-color: rgb(255, 255, 255);
   --main-color: rgb(82, 8, 166);
@@ -14,7 +21,6 @@
   --dev-color: rgb(255, 133, 62);
   --system-color: rgb(5, 145, 0);
   --networking-color: rgb(0, 88, 139);
-
 }
 
 body {
