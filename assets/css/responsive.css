@@ -56,10 +56,14 @@
         left: -70px;
         top: 50px;
     }
+    .timelineblock span {
+        font-weight: 800;
+    }
 }
 
 @media only screen and (min-width: 600px) {
     #memenu {
         border: solid 3.5px var(--main-color);
     }
-}
+   
+} 
