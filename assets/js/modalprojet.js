@@ -13,6 +13,21 @@ spanRPS.onclick = function () {
   modalRPS.style.display = "none";
 };
 
+// RPS2
+var modalRPS2 = document.getElementById("myModal_RPS2");
+var imgRPS2 = document.getElementById("rps2");
+var modalImgRPS2 = document.getElementById("modaltarget_rpsimg2");
+var captionTextRPS = document.getElementById("caption");
+imgRPS2.onclick = function () {
+  modalRPS2.style.display = "block";
+  modalImgRPS2.src = this.src;
+  captionTextRPS.innerHTML = this.alt;
+};
+var spanRPS = document.getElementsByClassName("closeR")[0];
+spanRPS.onclick = function () {
+  modalRPS.style.display = "none";
+};
+
 
 // Miniblog
 var modalMB = document.getElementById("myModal_miniblog");
