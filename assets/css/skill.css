@@ -1,63 +1,14 @@
-.container,
-.row {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-
-progress {
-  /* accent-color: var(--main-color); */
-  margin-top: auto;
-  margin-bottom: auto;
-  width: auto;
-}
-
-.competence p {
-  color: var(--secondaryfont-color);
-  text-align: center;
-  padding-right: 10px;
-}
-
-.competence div {
-  display: grid;
-  grid-template-columns: 45% 45% 45%;
-  /* grid-template-columns: repeat(3,1fr); */
-}
-
 .skillcontainergrid {
-  margin-right: 10%;
-  margin-left: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.language{
+  padding-bottom: 15%;
+}
+.language p{
+margin: 0%;
 }
 
-.element-skill {
-  border: 2px solid;
-  /*border-radius: 15px; */
-  margin: 10px;
-}
-
-#dev {
-  border-color: var(--dev-color);
-  border-radius: 15px;
-}
-
-#dev progress {
-  accent-color: var(--dev-color);
-}
-
-#networking {
-  border-color: var(--networking-color);
-  border-radius: 15px;
-}
-
-#networking progress {
-  accent-color: var(--networking-color);
-}
-
-#system {
-  border-color: var(--system-color);
-  border-radius: 15px;
-}
-
-#system progress {
-  accent-color: var(--system-color);
+.skill {
+  padding-right: 10%;
 }

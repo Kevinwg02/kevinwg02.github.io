@@ -1,7 +1,7 @@
 :root {
   font-size: 15px;
   font-family: Roboto, sans-serif;
-  
+
   /* **************DARK MODE******************** */
   /* --background-color: rgb(2, 2, 2);
   --main-color: rgb(243, 0, 0);
@@ -10,11 +10,11 @@
   --firstfont-color: rgb(255, 255, 255); */
 
 
-/* *************WHITE MODE******************** */
+  /* *************WHITE MODE******************** */
 
   --background-color: rgb(255, 255, 255);
   --main-color: rgb(82, 8, 166);
-  
+
   --secondaryfont-color: rgb(41, 41, 41);
   --firstfont-color: rgb(255, 255, 255);
 
