@@ -11,4 +11,8 @@ margin: 0%;
 
 .skill {
   padding-right: 10%;
+  list-style: circle;
+}
+.language-stars, .skill{
+  color: var(--firstfont-color);
 }

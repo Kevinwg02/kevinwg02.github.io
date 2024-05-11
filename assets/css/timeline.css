@@ -7,7 +7,7 @@
     text-align: justify;
     float: right;
     padding-left: 5%;
-    border-left: 1px black solid;
+    border-left: 1px white solid;
 }
 
 .timelineblock {
@@ -23,6 +23,7 @@
 span {
     font-weight: 200;
     font-style: italic;
+    color: var(--main-color);
 }
 
 .legendtimeline i {

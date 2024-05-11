@@ -28,9 +28,11 @@
   grid-column: span 2;
   margin-right: 10%;
 }
+.gridintro p{
+  color: var(--main-color);
+}
 
-.gridintro p,
-p {
+.gridintro p {
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
