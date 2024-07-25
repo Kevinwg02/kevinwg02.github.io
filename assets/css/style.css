@@ -3,22 +3,22 @@
   font-family: Roboto, sans-serif;
 
   /* **************DARK MODE******************** */
-  --background-color: rgb(2, 2, 2);
+  /* --background-color: rgb(2, 2, 2);
   --main-color: rgb(255, 66, 8);
   --secondaryfont-color: rgb(255, 255, 255);
   --firstfont-color: rgb(255, 255, 255);
-
+ */
 
   /* *************WHITE MODE******************** */
 
-  /* --background-color: rgb(255, 255, 255); */
-  /* --main-color: rgb(255, 136, 0); */
-  /* --main-color: rgb(255, 208, 0); */
-  /* --main-color: rgb(0, 38, 255);  */
-  /* --main-color: rgb(82, 8, 166); 
+   --background-color: rgb(255, 255, 255);
+  --main-color: rgb(255, 136, 0); 
+   --main-color: rgb(255, 208, 0); 
+   --main-color: rgb(0, 38, 255);  
+   --main-color: rgb(82, 8, 166); 
 
   --secondary-color: rgb(41, 41, 41);
-  --firstfont-color: rgb(255, 255, 255); */
+  --firstfont-color: rgb(255, 255, 255); 
 
 }
 
@@ -54,8 +54,11 @@ h1,
 h2,
 h3 {
   color: var(--main-color);
-  text-shadow: 2px 2px 4px black;
   font-family: Bebas Neue, sans-serif;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px black;
 }
 
 .sociallinks {

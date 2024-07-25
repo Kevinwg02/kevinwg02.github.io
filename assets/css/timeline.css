@@ -24,10 +24,12 @@ span {
     font-weight: 200;
     font-style: italic;
     color: var(--main-color);
+    font-weight: bold;
 }
 
 .legendtimeline i {
     color: var(--main-color);
+
 }
 
 .legendtimeline span,
