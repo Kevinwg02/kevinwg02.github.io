@@ -11,14 +11,14 @@
 
   /* *************WHITE MODE******************** */
 
-   --background-color: rgb(255, 255, 255);
-  --main-color: rgb(255, 136, 0); 
-   --main-color: rgb(255, 208, 0); 
-   --main-color: rgb(0, 38, 255);  
-   --main-color: rgb(82, 8, 166); 
+  --background-color: rgb(255, 255, 255);
+  --main-color: rgb(255, 136, 0);
+  --main-color: rgb(255, 208, 0);
+  --main-color: rgb(0, 38, 255);
+  --main-color: rgb(82, 8, 166);
 
   --secondary-color: rgb(41, 41, 41);
-  --firstfont-color: rgb(255, 255, 255); 
+  --firstfont-color: rgb(255, 255, 255);
 
 }
 
