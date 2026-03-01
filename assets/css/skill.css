@@ -1,0 +1,58 @@
+.skillcontainergrid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skill {
+  list-style: none;
+  padding: 0;
+}
+
+.skill li {
+  color: var(--grey);
+  font-size: 0.92rem;
+  padding: 0.5rem 0.8rem;
+  border-left: 1px solid rgba(255, 45, 120, 0.2);
+  margin-bottom: 0.4rem;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.skill li:hover {
+  border-left-color: var(--pink);
+  color: var(--white);
+  background: rgba(255, 45, 120, 0.04);
+}
+
+.skill li::before {
+  content: '▶ ';
+  color: var(--pink);
+  font-size: 0.6rem;
+  text-shadow: 0 0 8px var(--pink-glow);
+}
+
+.language {
+  padding-bottom: 1.5rem;
+  min-width: 160px;
+}
+
+.language p {
+  margin: 0 0 0.4rem;
+  font-family: 'Orbitron', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pink2);
+  text-shadow: 0 0 8px var(--pink-glow);
+}
+
+.language-stars {
+  color: var(--pink);
+}
+
+.language-stars i {
+  text-shadow: 0 0 8px var(--pink-glow);
+  margin-right: 2px;
+  font-size: 0.95rem;
+}

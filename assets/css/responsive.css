@@ -1,0 +1,104 @@
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  main section {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 20%;
+  }
+
+  .menu {
+    padding: 2% 3%;
+  }
+
+  .menu img {
+    border: 2px solid rgba(255,45,120,0.4);
+    box-shadow: 0 0 10px var(--pink-glow);
+  }
+
+  .gridintro {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .titre {
+    grid-column: 1;
+    font-size: 1.6rem;
+  }
+
+  .mypic {
+    grid-column: 1;
+  }
+
+  .mypic img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mypic::before {
+    inset: -4px;
+  }
+
+  .quick {
+    grid-column: 1;
+  }
+
+  .attachements {
+    grid-column: 1;
+    font-size: 0.6rem;
+  }
+
+  .sociallinks i {
+    font-size: 2rem;
+    margin-left: 12px;
+  }
+
+  .date {
+    font-size: 0.6rem;
+    left: -70px;
+    top: 6px;
+  }
+
+  .timelineblock span {
+    font-weight: 600;
+  }
+
+  .timelineblock::before {
+    left: -7px;
+  }
+
+  #memenu:hover {
+    opacity: 0.9;
+    border-color: var(--pink);
+  }
+
+  .project_img {
+    gap: 0.8rem;
+  }
+
+  .project_img img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .socialsactuallinks {
+    padding: 0 3% 0 5%;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .sociallinkproject,
+  .footercontact,
+  .sociallinkfooter {
+    grid-column: 1;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #memenu {
+    border: 2px solid rgba(255,45,120,0.4);
+    box-shadow: 0 0 10px var(--pink-glow);
+  }
+}

@@ -1,0 +1,35 @@
+.socials,
+.form {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.form input {
+  text-align: center;
+  background: rgba(5, 2, 10, 0.8);
+  border: 1px solid rgba(255, 45, 120, 0.3);
+  border-radius: 3px;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  padding: 10px 25px;
+  cursor: pointer;
+  color: var(--white);
+  font-family: 'DM Sans', sans-serif;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: var(--pink);
+  box-shadow: 0 0 15px rgba(255,45,120,0.2);
+}
+
+.form input::placeholder { color: var(--grey); }
+
+.form .message {
+  padding: 80px;
+  width: 100%;
+  resize: vertical;
+  background: rgba(5, 2, 10, 0.8);
+  color: var(--white);
+}

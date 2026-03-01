@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevinwg02</title>
+  <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.ico" />
+  <!-- fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- icon link -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/menu.css" />
+  <link rel="stylesheet" href="assets/css/introgrid.css" />
+  <link rel="stylesheet" href="assets/css/modalprojet.css" />
+  <link rel="stylesheet" href="assets/css/timeline.css" />
+  <link rel="stylesheet" href="assets/css/skill.css">
+  <link rel="stylesheet" href="assets/css/contact.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+  <section class="menu">
+
+    <div id="menuid">
+      <a href="#intro" id="test">Qui je suis</a>
+      <a href="#projects">Projets</a>
+      <a href="#timeline">Mon Parcours</a>
+      <a href="#competence">Compétences</a>
+    </div>
+    <img src="assets/images/me2.jpg" id="memenu" alt="kevpic" />
+  </section>
+
+  <main>
+    <section class="intro" id="intro">
+      <div class="Intro">
+        <div class="gridintro">
+          <div class="titre">
+            <h1>WAAG Kevin</h1>
+          </div>
+          <div class="undertitle">
+            <h2>
+              bienvenue!</h2>
+          </div>
+          <div class="mypic">
+            <img src="assets/images/me.jpg" alt="kevpic" />
+          </div>
+
+          <p class="quick">
+            Basé à <b>Reims</b>, je suis <b>administrateur système et réseaux</b>, avec une touche de développement.
+            Passionné par l'informatiques et la réparation d'ordinateurs, je travaille actuelement a Ikoula. En dehors
+            du travail, je suis un amateur de VTT et de natation, passionné de séries, de films et de jeux vidéo. Cela
+            vous fait quelques sujet pour briser la glace
+          </p>
+          <a href="assets/attachements/IKOULA.pdf" target="_blank" name="dl_btn" class="attachements">
+            Télécharger une version PDF du CV
+            <i class="fa-solid fa-file-arrow-down"></i></a>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="sociallinks">
+        <a href="https://github.com/Kevinwg02?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/kevin-w-80651314b/" alt="linkedin" target="_blank"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/kevinwg02/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#contact" onclick="openEmail()"><i class="fa-brands fa-at"></i></a>
+        <!-- <a href="#contact" onclick="openMap()"><i class="fa-solid fa-map-pin"></i></a> -->
+
+      </div>
+      <div class="hidden">
+        <div id="at">
+          <h3><a href="mailto:kevin.waag@outlook.com">kevin.waag@outlook.com</a></h3>
+        </div>
+        <!-- <div id="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83334.59322137352!2d4.055107949999997!3d49.253540550000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e974334a533b09%3A0x40a5fb99a3b45c0!2s51100%20Reims!5e0!3m2!1sfr!2sfr!4v1692861178444!5m2!1sfr!2sfr"
+            width="100%" height="50%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="timeline">
+      <h2>Mon Parcours</h2>
+      <h4>
+        <div class="legendtimeline">
+          <i class="fa-solid fa-briefcase"></i><span>Travail</span>
+          <i class="fa-solid fa-medal"></i><span>Diplome</span>
+          <i class="fa-solid fa-certificate"></i><span>Certification</span>
+          <i class="fa-brands fa-phoenix-framework"></i><span>Stage</span>
+
+        </div>
+      </h4>
+      <div class="timelinecontainer">
+        <div class="timelineblockcontainer">
+          <div class="timelineblock">
+            <div class="date">2024 - Now</div>
+            <h3><i class="fa-solid fa-briefcase"></i>Technicien Support Operationel</h3>
+            <span> Ikoula, Reims 51100</span> <br>
+            <p>
+              Diagnostic Linux, Windows, Firewall, Configuration d'un switch, Mise en place de la configuration DNS,
+              Zabbix ... Assurer un support
+              technique auprès des clients par le biais de ticket et du téléphone ainsi que la supervision avec une
+              intervention techniques en salle serveur ou grace au outils interne.
+            </p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2024</div>
+            <h3><i class="fa-brands fa-phoenix-framework"></i>Technicien Support Client</h3>
+            <span> 2SI, Soissons 02200</span> <br>
+            <p>
+              Un support informatique à distance auprès des clients de l'entreprise, un suivi de sauvegardes,
+              la création de comptes utilisateurs dans l’active directory
+              la création de comptes utilisateurs dans office 365
+              la supervision de l’infrastructure
+              participer aux réunions du service
+              déployer du matériels réseaux
+            </p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2024</div>
+            <h3><i class="fa-solid fa-certificate"></i> TOEIC</h3>
+            <span> CESI, Reims 51100</span> <br>
+            <p> SCORE: 915/990</p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2024</div>
+            <h3> <i class="fa-solid fa-medal"></i> Bachelor Administrateur Réseaux et de Base de Données </h3>
+            <span>CESI, Reims 51100 </span> <br>
+            <p>Sécurisation réseaux, LAN, WAN, NAT, Spanning Tree, VTP, DTP, DHCP, LACP, PAGP, Portchanneling, HSRP,
+              Powershell Architecture réseau,
+              Anglais, Gestion de projet</p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2024</div>
+            <h3> <i class="fa-solid fa-certificate"></i> CCNA 2 </h3>
+            <span>CESI, Reims 51100 </span> <br>
+            <p>Stp, Dhcp,Vlan, Dtp, Vtp, Nat, Vlan, PortSecurity, HSRP, OSPF</p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2023</div>
+            <h3> <i class="fa-solid fa-certificate"></i> CCNA 1 </h3>
+            <span>CESI, Reims 51100 </span> <br>
+            <p>Lan, Wan, Vlan, Routeur, Switch, IPV4, IPV6
+            </p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2023</div>
+            <h3> <i class="fa-solid fa-medal"></i> RAN </h3>
+            <span>CESI, Reims 51100 </span> <br>
+            <p> Réseaux locaux, Architecture réseau, Adressage IPV4 et IPV6,
+              HTML, CSS, JavaScript, Anglais, Algorithme</p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2021</div>
+            <h3><i class="fa-brands fa-phoenix-framework"></i> Stagiaire développeur web</h3>
+            <span> San Francisco Etat Unis <br></span>
+            <p> Refonte et développement d'une newsletter Design et développement du blog sur Oncord</p>
+          </div>
+
+          <div class="timelineblock">
+            <div class="date">2020</div>
+            <h3> <i class="fa-solid fa-medal"></i> DWWM </h3>
+            <span>AFPA, Laon 02000 <br></span>
+            <p> Spécialisation web et validation de mon précédant BTS IRIS en 2014, HTML, CSS, Bootstrap, Javascript,
+              PHP, MySQL, UML....</p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2018</div>
+            <h3><i class="fa-solid fa-certificate"></i> TOEIC</h3>
+            <span> Université Reims Champagne Ardenne, Reims 51100</span> <br>
+            <p> SCORE: 925/990</p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2019</div>
+            <h3><i class="fa-solid fa-briefcase"></i> Intervenant Anglais </h3>
+            <span>language connexion, Laon 0200,</span> <br>
+            Education de la langue anglaise à des enfants variants de 8 à 11 ans par le
+            biais de chansons, vidéos, flashcards, exercices, jeux, cours....
+          </div>
+          <div class="timelineblock">
+            <div class="date">2017</div>
+            <h3><i class="fa-solid fa-medal"></i> LICENCE LLCER </h3>
+            <span> URCA, Reims 51100 </span><br>
+            <p> Etudes de Textes anglais, Civilisation anglaise, Traduction,
+              Cours intensif sur la grammaire anglaise....</p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2016</div>
+            <h3><i class="fa-solid fa-briefcase"></i> Technicien de maintenance</h3> <br>
+            <span>Alliance Scolaire, Nouvelle Caledonie</span> <br>
+            <p> Maintenance Informatique et renouvellement du parc informatique (réseau,
+              ordinateur, vidéoprojecteur), cours informatique pour collégiens</p>
+          </div>
+
+          <div class="timelineblock">
+            <div class="date">2013</div>
+            <h3><i class="fa-brands fa-phoenix-framework"></i> Stagiaire technicien maintenance</h3> <br>
+            <span> UTC, 60200 Compiegne<br></span>
+            <p> Dépannage Réseaux<br>
+              Cablage RJ45 <br>
+              Réparation et Installation de Baie
+              Informatique et de borne WIFI</p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2012</div>
+            <h3> <i class="fa-solid fa-medal"></i> BTS IRIS</h3>
+            <span>Lycée Pierre Méchain, 02000 Laon<br></span>
+            <p> Language Internet et objet (C, C++, C#, HTML, CSS)</p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2012</div>
+            <h3><i class="fa-brands fa-phoenix-framework"></i>Stagiaire Technicien Maintenance </h3>
+            <span>GIE Convergence, 02000 Laon</span>
+            <p> Installation/ Configuration 30 PC et 20 de Wyses
+              Configuration imprimante réseau</p>
+          </div>
+
+          <div class="timelineblock">
+            <div class="date">2011</div>
+            <h3><i class="fa-solid fa-medal"></i> BAC SEN</h3>
+            <span> Lycée Pierre Méchain, 02000 Laon</span><br>
+            <p> Spécialisation Numerique <br>
+              Installation réseau, maintenance et montage pc, installation imprimante réseau</p>
+          </div>
+          <div class="timelineblock">
+            <div class="date">2009</div>
+            <h3><i class="fa-solid fa-medal"></i> BEP SEN</h3>
+            <span> Lycée Pierre Méchain, Laon 02000</span> <br>
+            <p> Installation, mise en service, intervention, maintenance</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- everyimgprojects -->
+    <section id="projects">
+      <h2>Projets</h2>
+
+      <div class="project_img">
+        <!-- <img src="assets/images/login.png" alt="Login_Concept" id="loginimg" /> -->
+        <!-- <img src="assets/images/menu.png" alt="menu" id="menuimg" /> -->
+        <img src="assets/images/miniblog.png" alt="Miniblog_Picture" id="miniblogimg" />
+        <img src="assets/images/rps.png" alt="Rps_Picture" id="rpsimg" />
+        <!-- <img src="assets/images/rpsmainshot.png" alt="Rps_Picture" id="rps2" /> -->
+        <!-- <img src="assets/images/puissance4.png" alt="Puissance4_Picture" id="puissance4img" /> -->
+        <img src="assets/images/beeboworld(1).png" alt="beeboworld_Picture" id="beeboworldimg1" />
+        <img src="assets/images/beeboworld(2).png" alt="beeboworld_Picture" id="beeboworldimg2" />
+           <img src="assets/images/kenemisite.png" alt="Kenemimusic_Picture" id="kenemiimg" />
+        <img src="assets/images/Kenemiapp.png" alt="KenemiMusicPlayer_Picture" id="kenemiappimg" />
+      </div>
+      <!-- The Modals -->
+      <div id="everymodalprojects">
+
+
+        <div id="myModal_RPS" class="modal">
+          <span class="closeR2" class="close">&times;</span>
+          <img class="modal-content" id="modaltarget_rpsimg" />
+          <div id="captionR">Ceci est le screen d'un petit jeu de pierre feuille ciseaux créer avec nodeJS. Une version
+            FR
+            et EN sont disponible, ainsi qu'une version 1 et 2 joueurs. Une fois la partis finis un scoreboard
+            s'affichera.</div>
+        </div>
+
+        <div id="myModal_miniblog" class="modal">
+          <span class="closeMB" class="close">&times;</span>
+          <img class="modal-content" id="modaltarget_miniblog" />
+          <div id="caption">Ceci est un miniblog qui ma servis pour le passage oral d'un diplome. il y a un darkmode.
+            tout les articles sont en bases. Il y a une page login ou nous pouvons tout modifier de la base.</div>
+        </div>
+
+        <div id="myModal_beeboworld1" class="modal">
+          <span class="closeBB close">&times;</span>
+          <img class="modal-content" id="modaltarget_beeboworld1" />
+          <div id="captionBB">Bibliothèque perso avec statistiques de lecture et d'achat avec les prix</div>
+        </div>
+
+
+        <div id="myModal_beeboworld2" class="modal">
+          <span class="closeB close">&times;</span>
+          <img class="modal-content" id="modaltarget_beeboworld2" />
+          <div id="captionB">Bibliothèque perso avec statistiques de lecture et d'achat avec les prix</div>
+        </div>
+
+        <div id="myModal_kenemi" class="modal">
+          <span class="closeKN close">&times;</span>
+          <img class="modal-content" id="modaltarget_kenemi" />
+          <div id="captionKN">Site web pour Kenemi Music.</div>
+        </div>
+
+        <div id="myModal_kenemiapp" class="modal">
+          <span class="closeKNAPP close">&times;</span>
+          <img class="modal-content" id="modaltarget_kenemiapp" />
+          <div id="captionKNAPP">Application mobile Kenemi Music — lecteur audio local pour Android, sans pub ni
+            collecte de données.</div>
+        </div>
+
+
+
+      </div>
+      <script src="assets/js/modalprojet.js"></script>
+    </section>
+
+    <section class="competence" id="competence">
+      <h2>Competence</h2>
+
+      <div class="skillcontainergrid">
+        <div class="skill">
+          <li>Developement Web</li>
+          <li>Active Directory</li>
+          <li>Architecture réseau</li>
+          <li>Configuration switch & routeur</li>
+          <li>Configuration DNS</li>
+          <li>Configuration Linux</li>
+          <li>Maintenance Informatique</li>
+          <li>Permis B + Voiture</li>
+        </div>
+        <div class="mainlanguage">
+          <div class="language">
+            <p>English: bilingue</p>
+            <div class="language-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+          <div class="language">
+            <p>Français : langue maternelle</p>
+            <div class="language-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <div class="element-skill" id="dev">
+          <p>HTML</p>
+          <progress value="95" max="100">80%</progress>
+        </div>
+        <div class="element-skill" id="dev">
+          <p>Css</p> <progress value="70" max="100"></progress>
+        </div>
+        <div class="element-skill" id="dev">
+          <p>js</p> <progress value="60" max="100"></progress>
+        </div>
+        <div class="element-skill" id="dev">
+          <p>php</p><progress value="40" max="100"></progress>
+        </div>
+        <div class="element-skill" id="dev">
+          <p>SQL</p> <progress value="50" max="100"></progress>
+        </div>
+        <div class="element-skill" id="system">
+          <p>Git</p> <progress value="65" max="100"></progress>
+        </div>
+        <div class="element-skill" id="system">
+          <p>IP</p> <progress value="80" max="100"></progress>
+        </div>
+        <div class="element-skill" id="system">
+          <p>bash</p> <progress value="55" max="100"></progress>
+        </div>
+        <div class="element-skill" id="system">
+          <p>Linux</p> <progress value="55" max="100"></progress>
+        </div>
+        <div class="element-skill" id="system">
+          <p>ESXI</p> <progress value="75" max="100"></progress>
+        </div>
+        <div class="element-skill" id="system">
+          <p>Hyper-V</p> <progress value="75" max="100"></progress>
+        </div>
+        <div class="element-skill" id="system">
+          <p>Windows Server</p> <progress value="55" max="100"></progress>
+        </div>
+        <div class="element-skill" id="networking">
+          <p>VLAN</p> <progress value="90" max="100"></progress>
+        </div>
+        <div class="element-skill" id="networking">
+          <p>DTP</p> <progress value="95" max="100"></progress>
+        </div>
+        <div class="element-skill" id="networking">
+          <p>VTP</p> <progress value="95" max="100"></progress>
+        </div>
+        <div class="element-skill" id="networking">
+          <p>HSRP</p> <progress value="40" max="100"></progress>
+        </div>
+        <div class="element-skill" id="networking">
+          <p>OSPF</p> <progress value="60" max="100"></progress>
+        </div>
+        <div class="element-skill" id="networking">
+          <p>STP</p> <progress value="80" max="100"></progress>
+        </div>
+        <div class="element-skill" id="networking">
+          <p>Route</p> <progress value="85" max="100"></progress>
+        </div>
+        <div class="element-skill" id="networking">
+          <p>ACL</p> <progress value="20" max="100"></progress>
+        </div>
+      </div> -->
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="socialsactuallinks">
+      <div class="sociallinkproject">
+        <p>Projets</p>
+        <a href="https://www.beeboworld.kevw.fr" target="_blank">BeeboWorld</a><br>
+        <a href="https://www.kenemimusic.kevw.fr" target="_blank">Kenemi Music</a><br>
+        <a href="https://github.com/Kevinwg02/RockPaperScissors-NodeJs" target="_blank">RPS Game</a><br>
+        <a href="https://github.com/Kevinwg02/MiniBlog" target="_blank">Miniblog</a><br>
+        <a href="https://github.com/Kevinwg02/StarterKit" target="_blank">WebStarter Kit</a><br>
+
+      </div>
+      <div class="footercontact">
+        <p>Contacts</p>
+        <a href="mailto:kevin.waag@outlook.com">kevin.waag@outlook.com</a> <br>
+        <a href="">Reims </a>
+      </div>
+      <div class="sociallinkfooter">
+        <p>Réseaux</p>
+        <a href="https://www.instagram.com/kevinwg02/" target="_blank">Instagram</a> <br>
+        <a href="https://www.linkedin.com/in/kevin-w-80651314b/" target="_blank">Linkedin</a> <br>
