@@ -88,3 +88,16 @@ var spanKNAPP = document.getElementsByClassName("closeKNAPP")[0];
 spanKNAPP.onclick = function () {
   modalKNAPP.style.display = "none";
 };
+
+// Webradio
+var modalwebradio = document.getElementById("myModal_webradio");
+var imgwebradio = document.getElementById("webradioimg");
+var modalImgwebradio = document.getElementById("modaltarget_webradio");
+imgwebradio.onclick = function () {
+  modalwebradio.style.display = "block";
+  modalImgwebradio.src = this.src;
+};
+var spanwebradio = document.getElementsByClassName("closewebradio")[0];
+spanwebradio.onclick = function () {
+  modalwebradio.style.display = "none";
+};
